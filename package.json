@@ -1,7 +1,15 @@
 {
-  "name": "stackblitz-starters-vfuaph",
-  "version": "0.0.0",
+  "name": "ng-conf-2024-acm-webinar",
+  "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
   "dependencies": {
     "rxjs": "7.8.1",
     "tslib": "2.6.2",
@@ -14,16 +22,7 @@
     "@angular/animations": "17.0.5",
     "@angular/platform-browser": "17.0.5"
   },
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
-  },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.1100.4",
     "@angular/cli": "~11.0.4",
     "@angular/compiler-cli": "~11.0.4",
     "@types/jasmine": "~3.6.0",
