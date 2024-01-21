@@ -26,14 +26,15 @@
             }
           },
           "options": {
-            "assets": [],
+            "assets": [
+              "src/images/"
+            ],
             "index": "src/index.html",
             "browser": "src/main.ts",
             "outputPath": "dist/demo",
             "scripts": [],
             "styles": [
-              "@angular/material/prebuilt-themes/pink-bluegrey.css",
-              "src/global_styles.css"
+              "src/styles.css"
             ],
             "tsConfig": "src/tsconfig.app.json"
           }

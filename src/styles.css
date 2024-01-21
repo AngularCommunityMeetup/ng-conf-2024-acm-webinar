@@ -1,0 +1,83 @@
+:root {
+  --color-water-light: #e0f7fa;
+  --color-ocean-mid: #0277bd;
+  --color-ocean-deep: #013a63;
+  --color-seafoam: #76c7c0;
+  --color-card: #b3e5fc;
+  --color-header: #01579b;
+  --color-button-primary: var(--color-header);
+  --color-button-primary-hover: var(--color-ocean-deep);
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(
+    to bottom,
+    var(--color-water-light),
+    var(--color-seafoam),
+    var(--color-ocean-mid),
+    var(--color-ocean-deep)
+  );
+  color: var(--color-ocean-mid);
+  padding: 20px
+}
+
+.treasures-container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+  article {
+    background-color: var(--color-card);
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+  header h1 {
+    margin: 0;
+    padding: 15px;
+    background-color: var(--color-header);
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, var(--color-ocean-deep), var(--color-seafoam));
+    border-radius: 10px 10px 0 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  p {
+    padding: 15px;
+  }
+
+  footer {
+    padding: 10px;
+    text-align: center;
+  }
+
+  button {
+    background-color: var(--color-button-primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+      background-color: var(--color-button-primary-hover);
+    }
+  }
+}
