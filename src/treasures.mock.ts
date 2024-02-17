@@ -13,4 +13,11 @@ export const treasuresMock: Treasure[] = [
   { name: "Ivory Melody", description: "A finely crafted flute made of ivory.", image: "images/4wZxWfMgyq0uiJVPtg4s--13--giwp9.jpg", areDetailsVisible: false },
   { name: "Jade Serpent", description: "A small, intricate statue of a dragon made of jade.", image: "images/4wZxWfMgyq0uiJVPtg4s--14--uutd5.jpg", areDetailsVisible: false },
   { name: "Crystal Fortune", description: "A mysterious skull carved out of clear crystal.", image: "images/4wZxWfMgyq0uiJVPtg4s--16--pd5a6.jpg", areDetailsVisible: false },
+  { name: "Pearl Whisper", description: "A small, delicate seashell with a shimmering pearl.",  image: "images/4wZxWfMgyq0uiJVPtg4s--1--fvmh6.jpg", areDetailsVisible: false },
+  { name: "Crimson Rose", description: "A beautiful brooch with a large, red rose.", image: "images/4wZxWfMgyq0uiJVPtg4s--2--c6bx3.jpg", areDetailsVisible: false },
+  { name: "Golden Chalice", description: "A golden goblet encrusted with jewels.", image: "images/4wZxWfMgyq0uiJVPtg4s--4--70lt2.jpg", areDetailsVisible: false },
+  { name: "Silver Locket", description: "A delicate locket with a small, silver key.",image: "images/4wZxWfMgyq0uiJVPtg4s--8--49td7.jpg", areDetailsVisible: false },
+  { name: "Emerald Serpent", description: "A small, intricate statue of a snake made of emerald.",  image: "images/4wZxWfMgyq0uiJVPtg4s--11--yuxpk.jpg", areDetailsVisible: false },
+  { name: "Sapphire Serpent", description: "A small, intricate statue of a snake made of sapphire.", image: "images/4wZxWfMgyq0uiJVPtg4s--5--wxpdp.jpg", areDetailsVisible: false },
+  { name: "Ruby Serpent", description: "A small, intricate statue of a snake made of ruby.",image: "images/4wZxWfMgyq0uiJVPtg4s--13--giwp9.jpg", areDetailsVisible: false },
 ];
