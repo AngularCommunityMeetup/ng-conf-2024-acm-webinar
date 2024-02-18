@@ -1,6 +1,6 @@
 import { bootstrapApplication } from '@angular/platform-browser';
 import 'zone.js';
-import { WebinarTreasures } from './treasure.component';
+import { TreasureListComponent } from './treasure-list.component';
 
 
-bootstrapApplication(WebinarTreasures);
+bootstrapApplication(TreasureListComponent);
