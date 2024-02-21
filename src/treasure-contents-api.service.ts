@@ -1,15 +1,12 @@
-import {Injectable} from '@angular/core';
-import {delay, Observable, of} from "rxjs";
-import {TREASURE_CONTENTS as contents} from "./treasures.mock";
-import {TreasureContents} from "./treasure.model";
+import { Injectable } from '@angular/core';
+import { delay, Observable, of } from "rxjs";
+import { TreasureContents } from "./treasure.model";
+import { TREASURE_CONTENTS as contents } from "./treasures.mock";
 
 @Injectable({
     providedIn: 'root'
 })
 export class TreasureContentsApiService {
-
-    constructor() {
-    }
 
     /**
      * Get the treasure contents.
